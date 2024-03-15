@@ -11,7 +11,7 @@ List<ListViewModel> listofModels = [
   ),
   ListViewModel(
     title: 'Climbing Training',
-    imagePath: 'assets/images/image1.png',
+    imagePath: 'assets/images/istockphoto-622956050-612x612.jpg',
     subTitle:
         'Experience the ultimate thrill with our Zipline Training program',
   ),

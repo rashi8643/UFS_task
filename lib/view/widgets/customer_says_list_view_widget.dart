@@ -22,15 +22,15 @@ class CustomerSaysListViewWidget extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.all(16),
+                      const Padding(
+                        padding: EdgeInsets.all(16),
                         child: CircleAvatar(
                           radius: 34,
                           backgroundImage:
                               AssetImage('assets/images/Rectangle 22.png'),
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 100,
                         height: 100,
                         child:
@@ -43,7 +43,7 @@ class CustomerSaysListViewWidget extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        const Text(
                           "cargomatic",
                           style: TextStyle(
                             fontSize: 24,
@@ -52,11 +52,11 @@ class CustomerSaysListViewWidget extends StatelessWidget {
                         ),
                         SizedBox(
                           width: MediaQuery.sizeOf(context).width / 1.9,
-                          child: Text(
+                          child: const Text(
                             "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC",
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 36,
                         ),
                         Row(
@@ -64,12 +64,12 @@ class CustomerSaysListViewWidget extends StatelessWidget {
                             Container(
                               width: 2,
                               height: 20,
-                              color: Color.fromARGB(255, 56, 4, 243),
+                              color: const Color.fromARGB(255, 56, 4, 243),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 4,
                             ),
-                            Text(
+                            const Text(
                               "Rashid",
                               style: TextStyle(
                                 fontSize: 20,
