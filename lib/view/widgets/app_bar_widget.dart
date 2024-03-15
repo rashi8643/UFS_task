@@ -37,7 +37,7 @@ class _AppBarWidgetState extends State<AppBarWidget> {
               });
             },
             // ignore: dead_code
-            child: selected ? Text("Login") : Text("Logout"),
+            child: selected ? const Text("Login") : const Text("Logout"),
           ),
         ],
       ),

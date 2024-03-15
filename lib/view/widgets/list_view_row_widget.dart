@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ufs_task/consroller/list_view_controller.dart';
-import 'package:ufs_task/model/list_view_model.dart';
 
 class ListViewRowWidget extends StatelessWidget {
   const ListViewRowWidget({super.key});

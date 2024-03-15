@@ -9,7 +9,7 @@ class TitleWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: SizedBox(
         width: MediaQuery.sizeOf(context).width,
-        child: Text(
+        child: const Text(
           'Explore our Variours Training',
           style: TextStyle(
             fontSize: 42,

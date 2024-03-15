@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:ufs_task/view/widgets/app_bar_widget.dart';
 import 'package:ufs_task/view/widgets/customer_says_list_view_widget.dart';
 import 'package:ufs_task/view/widgets/list_view_row_widget.dart';
