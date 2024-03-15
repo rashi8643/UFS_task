@@ -7,6 +7,8 @@ class AppBarWidget extends StatefulWidget {
   State<AppBarWidget> createState() => _AppBarWidgetState();
 }
 
+bool selected = true;
+
 class _AppBarWidgetState extends State<AppBarWidget> {
   @override
   Widget build(BuildContext context) {
@@ -29,8 +31,13 @@ class _AppBarWidgetState extends State<AppBarWidget> {
                 borderRadius: BorderRadius.circular(4),
               ),
             ),
-            onPressed: () {},
-            child: const Text('Login'),
+            onPressed: () {
+              setState(() {
+                selected = !selected;
+              });
+            },
+            // ignore: dead_code
+            child: selected ? Text("Login") : Text("Logout"),
           ),
         ],
       ),

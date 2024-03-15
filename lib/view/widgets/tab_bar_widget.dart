@@ -21,13 +21,13 @@ class TabBarWidget extends StatelessWidget {
             TabBarSingleWidget(
               imagePath: 'assets/images/inspection.png',
               tabName: 'Inspection',
-              color: Colors.white,
+              color: Colors.transparent,
               onTap: () {},
             ),
             TabBarSingleWidget(
               imagePath: 'assets/images/calibration.png',
               tabName: 'Calibration',
-              color: Colors.white,
+              color: Colors.transparent,
               onTap: () {},
             )
           ],
