@@ -9,12 +9,45 @@ class TitleWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: SizedBox(
         width: MediaQuery.sizeOf(context).width,
-        child: const Text(
-          'Explore our Variours Training',
-          style: TextStyle(
-            fontSize: 42,
-            fontWeight: FontWeight.bold,
-            color: Color(0xFF294c73),
+        child: RichText(
+          text: const TextSpan(
+            text: 'Explore our various ',
+            style: TextStyle(
+                color: Color(0xFF294c73),
+                fontSize: 44,
+                fontWeight: FontWeight.bold),
+            children: [
+              TextSpan(
+                text: 'training',
+                style: TextStyle(
+                  color: Color(0xFFd8eaff),
+                  shadows: [
+                    Shadow(
+                      offset: Offset(-1.5, -1.5),
+                      color: Color(0xFF294c73),
+                    ),
+                    Shadow(
+                      offset: Offset(1.5, -1.5),
+                      color: Color(
+                        0xFF294c73,
+                      ),
+                    ),
+                    Shadow(
+                      offset: Offset(1.5, 1.5),
+                      color: Color(
+                        0xFF294c73,
+                      ),
+                    ),
+                    Shadow(
+                      offset: Offset(-1.5, 1.5),
+                      color: Color(
+                        0xFF294c73,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+            ],
           ),
         ),
       ),
