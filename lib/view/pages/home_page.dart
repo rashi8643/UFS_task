@@ -107,6 +107,9 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               const OurClientsListViewWidget(),
+              const SizedBox(
+                height: 50,
+              ),
             ],
           ),
         ),
