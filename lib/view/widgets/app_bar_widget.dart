@@ -18,7 +18,7 @@ class _AppBarWidgetState extends State<AppBarWidget> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          CircleAvatar(
+          const CircleAvatar(
             radius: 26,
             backgroundColor: Colors.white,
             backgroundImage: AssetImage('assets/images/hamburger.png'),
@@ -30,7 +30,7 @@ class _AppBarWidgetState extends State<AppBarWidget> {
               ),
             ),
             onPressed: () {},
-            child: Text('Login'),
+            child: const Text('Login'),
           ),
         ],
       ),
